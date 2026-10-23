@@ -1,0 +1,58 @@
+import { Product } from "@/types";
+
+export const products: Product[] = [
+  {
+    slug: "obsidian-leather",
+    name: "Obsidian Leather",
+    model: "iPhone 17 Pro Max",
+    material: "Full-grain leather",
+    price: 2499,
+    description: "Hand-stitched full-grain leather with a soft microfibre lining and precise button cutouts.",
+    gradient: "linear-gradient(145deg,#1b1b1f,#3a3a42)",
+  },
+  {
+    slug: "aurora-glass",
+    name: "Aurora Glass",
+    model: "iPhone 17 Pro",
+    material: "Tempered glass + TPU",
+    price: 1799,
+    description: "A scratch-resistant glass back with a shock-absorbing frame. Slim, glossy and strong.",
+    gradient: "linear-gradient(145deg,#6a5cff,#31d0c4)",
+  },
+  {
+    slug: "sand-silicone",
+    name: "Sand Silicone",
+    model: "iPhone 17",
+    material: "Liquid silicone",
+    price: 1299,
+    description: "Silky-soft liquid silicone that feels great in hand and resists fingerprints.",
+    gradient: "linear-gradient(145deg,#d8c3a5,#f1e4cf)",
+  },
+  {
+    slug: "royal-carbon",
+    name: "Royal Carbon",
+    model: "iPhone 16 Pro Max",
+    material: "Carbon fibre",
+    price: 2999,
+    description: "Real carbon-fibre weave, ultra-light, with military-grade drop protection.",
+    gradient: "linear-gradient(145deg,#0f0f12,#2c2c33 55%,#0f0f12)",
+  },
+  {
+    slug: "rose-gold-frost",
+    name: "Rose Gold Frost",
+    model: "iPhone 16 Pro",
+    material: "Frosted polycarbonate",
+    price: 1599,
+    description: "A translucent frosted finish with a rose-gold edge that shows off your phone's colour.",
+    gradient: "linear-gradient(145deg,#f3c6c0,#e6a5a0)",
+  },
+  {
+    slug: "midnight-magsafe",
+    name: "Midnight MagSafe",
+    model: "iPhone 16",
+    material: "Vegan leather + MagSafe",
+    price: 1999,
+    description: "Strong built-in magnets for MagSafe chargers and wallets, wrapped in vegan leather.",
+    gradient: "linear-gradient(145deg,#14213d,#274472)",
+  },
+];
